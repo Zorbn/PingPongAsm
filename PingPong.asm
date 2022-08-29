@@ -40,15 +40,15 @@ extern CreateSolidBrush
 extern FillRect
 
 ; Constants:
-WindowWidth         equ 640
-WindowHeight        equ 480
+WindowWidth  equ 640
+WindowHeight equ 480
 
 global Start
 
 section .data
-    WindowName       db "PingPong", 0
-    ClassName        db "Window", 0
-    BackgroundColor  dd 0A56E3Bh
+    WindowName      db "PingPong", 0
+    ClassName       db "Window", 0
+    BackgroundColor dd 0A56E3Bh
 
 section .bss
     alignb 8
